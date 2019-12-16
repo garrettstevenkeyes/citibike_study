@@ -16,10 +16,11 @@ By parsing the start time and date columns I was able to add columns containing 
 
 When using the good distance matrix API I included an advaced critiria to spicify the mode of transport as by bicycle to give the highest level of accuracy because there are often times where cyclists travel on paths cars cannot use. 
 
-## Exploratory Data Analysis:
-Taking a first look at my data 
+Additionally looking at my data I saw there was a significant imbalance in my y dependent variable of usertype, so I used the Synthetic Minority Over-sampling Technique(SMOT) to generate a more balanced dataset.  
 
-Subscribers vs customers             |  Rider age distribution    
+## Exploratory Data Analysis:
+
+Subscribers vs customers Prior to SMOT Oversampling           |  Rider age distribution    
 :-------------------------:|:-------------------------:
 ![alt_text](graphs/customer_vs_subscribers.png)  | ![alt_text](graphs/age_distribution.png)
 
