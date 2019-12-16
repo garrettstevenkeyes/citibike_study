@@ -52,6 +52,6 @@ SMOTE Logistic Regression     |  80.97 |  88.74  | 89.87  | .89  | .515
 
 
 Upon modeling the data it shows that the model, however, is not very effective given it possesses a low Area Under Curve(AUC) score. This indicates there may be some data leakage or another issue affecting the prediction. Applying SMOTE, however, proved effective with increasing the precision of the model, as precision is a measure of confidence in the true positives of th model.   
-Logistic Regression Confusion Matrix      |  SMOTE Logistic Regression Confusion Matrix 
+Logistic Regression Confusion Matrix  |  SMOTE Logistic Regression Confusion Matrix 
 :----------:|:-----------:
 ![alt_text](graphs/logistic_regression.png) | ![alt_text](graphs/smote_logistic_regression.png)
