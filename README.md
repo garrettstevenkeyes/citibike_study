@@ -39,7 +39,8 @@ Additionally, the most common arrival and edparture stations are both the Grve S
 
 ## Modeling
 
-Models     |  ACC |  Prec  | Recall  | F1  | AUC   
+Models     |  ACC |  Prec  | Recall  | F1  | AUC
+:----------:|:-----------:|:-------------:|:-----------:|:---------:|:---------------:
 Dummy     |  80.02 |  88.26  | 89.26  | .887  | AUC  
 SMOTE Dummy     |  50.44 |  88.72  | 50.33  | .64  | AUC  
 Random Forest     |  88.38 |  88.38  | 100  | .93  | AUC  
