@@ -49,3 +49,6 @@ XGBoost     |  88.30 |  88.37  | 99.90  | .93  | .499
 SMOTE XGBoost     |  77.72 |  88.49  | 85.97  | .87  | .504  
 Logistic Regression     |  88.38 |  88.38  | 100  | .93  | .5  
 SMOTE Logistic Regression     |  80.97 |  88.74  | 89.87  | .89  | .515  
+
+
+Upon modeling the data it shows that the model, however, is not very effective given it possesses a low Area Under Curve(AUC) score. This indicates there may be some data leakage or another issue affecting the prediction. Applying SMOTE, however, proved effective with increasing the precision of the model, as precision is a measure of confidence in the true positives of th model.   
