@@ -56,4 +56,4 @@ Upon modeling the data it shows that the model, however, is not very effective g
 
 Logistic Regression Confusion Matrix  |  SMOTE Logistic Regression Confusion Matrix              
 :--------------------------:|:-------------------------:
-![alt_text](graphs/logistic_regression.png) | ![alt_text](graphs/smote_logistic_regression.png) 
+![alt_text](graphs/logistic_regression.png) | ![alt_text](graphs/smote_log_reg.png) 
