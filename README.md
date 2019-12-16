@@ -20,7 +20,7 @@ Additionally looking at my data I saw there was a significant imbalance in my y 
 
 ## Exploratory Data Analysis:
 
-Subscribers vs customers Prior to SMOT Oversampling           |  Rider age distribution    
+Subscribers vs customers prior to SMOT oversampling           |  Rider age distribution    
 :-------------------------:|:-------------------------:
 ![alt_text](graphs/customer_vs_subscribers.png)  | ![alt_text](graphs/age_distribution.png)
 
