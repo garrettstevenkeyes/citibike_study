@@ -41,11 +41,11 @@ Additionally, the most common arrival and edparture stations are both the Grve S
 
 Models     |  ACC |  Prec  | Recall  | F1  | AUC
 :----------:|:-----------:|:-------------:|:-----------:|:---------:|:---------------:
-Dummy     |  80.02 |  88.26  | 89.26  | .887  | AUC  
-SMOTE Dummy     |  50.44 |  88.72  | 50.33  | .64  | AUC  
-Random Forest     |  88.38 |  88.38  | 100  | .93  | AUC  
-SMOTE Random Forest     |  88.30 |  88.37  | 99.90  | .93  | AUC  
-XGBoost     |  88.30 |  88.37  | 99.90  | .93  | AUC  
-SMOTE XGBoost     |  77.72 |  88.49  | 85.97  | .87  | AUC  
-Logistic Regression     |  88.38 |  88.38  | 100  | .93  | AUC  
-SMOTE Logistic Regression     |  80.97 |  88.74  | 89.87  | .89  | AUC  
+Dummy     |  80.02 |  88.26  | 89.26  | .887  | .496  
+SMOTE Dummy     |  50.44 |  88.72  | 50.33  | .64  | .511  
+Random Forest     |  88.38 |  88.38  | 100  | .93  | .5  
+SMOTE Random Forest     |  88.30 |  88.37  | 99.90  | .93  | .5  
+XGBoost     |  88.30 |  88.37  | 99.90  | .93  | .499  
+SMOTE XGBoost     |  77.72 |  88.49  | 85.97  | .87  | .504  
+Logistic Regression     |  88.38 |  88.38  | 100  | .93  | .5  
+SMOTE Logistic Regression     |  80.97 |  88.74  | 89.87  | .89  | .515  
